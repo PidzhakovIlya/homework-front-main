@@ -1,5 +1,7 @@
 import {UserList} from './UserList';
 
+
+
 export const HW1 = () => {
 
 	// 1️⃣ Раскомментируйте JSX (HW1.tsx, UserList.tsx) и вы увидите,
@@ -34,7 +36,7 @@ export const HW1 = () => {
 
 	return (
 		<div id={'hw01'}>
-			{/*<UserList users={'НАЗВАНИЕ МАССИВА, КОТОРЫЙ МЫ ПЕРЕДАЕМ'} />*/}
+			<UserList users={users} />
 		</div>
 	);
 };
